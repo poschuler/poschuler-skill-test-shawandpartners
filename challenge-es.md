@@ -38,7 +38,7 @@ El propósito de esta prueba es evaluar tus habilidades en desarrollo Backend y 
     - Esta ruta debe devolver el estado 200 y un objeto con la clave "message" con el valor "El archivo se cargó correctamente".
     - O esta ruta debe devolver el estado 500 y un objeto con la clave "message" con un mensaje de error en el valor.
   - **[GET /api/users]**
-    - Debe incluir un endpoint que permita al frontend buscar a través de los datos CSV cargados. Esta ruta debe aceptar un parámetro de consulta ?q= para términos de búsqueda y debe buscar en CADA columna del CSV. El filtro debe buscar coincidencias parciales y también ser insensible a mayúsculas y minúsculas.
+    - Debe incluir un endpoint que permita al frontend buscar a través de los datos CSV cargados. Esta ruta debe aceptar un parámetro de consulta ?q= para términos de búsqueda y debe buscar en CADA columna del CSV. - El filtro debe buscar coincidencias parciales y también ser insensible a mayúsculas y minúsculas.
     - Esta ruta debe devolver el estado 200 y un objeto con la clave "data" con un array de objetos dentro de él.
     - O esta ruta debe devolver el estado 500 y un objeto con la clave "message" con un mensaje de error en el valor.
 
